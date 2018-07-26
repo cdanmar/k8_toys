@@ -7,6 +7,6 @@ spec:
     spec:
       containers:
       - name: busybox
-        command: ["sleep", "2"]
+        command: ["sleep", "10"]
       restartPolicy: Never
   backoffLimit: 3
